@@ -1,0 +1,36 @@
+# Build outputs
+dist/
+build/
+*.spec
+
+# Binaries (download via build.bat)
+bin/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pycache/
+
+# Models (large files, user downloads)
+models/*.gguf
+models/*.bin
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
+
+# Temporary
+*.tmp
+*.log
+*.bak
